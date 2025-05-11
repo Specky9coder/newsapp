@@ -58,6 +58,6 @@ The application uses `flutter_bloc` for structured and scalable state management
 
 ## Screenshots (Optional)
 
-| Home Screen | Article Detail | Favorites Screen |
-|-------------|----------------|------------------|
-| ![Home Screen](screenshots/home.png) | ![Detail Screen](screenshots/detail.png) | ![Favorites Screen](screenshots/favorites.png) |
+| Home Screen | Article Detail                            | Favorites Screen                              |
+|-------------|-------------------------------------------|-----------------------------------------------|
+| ![Home Screen](screenshots/home.png) | ![Detail Screen](screenshots/details.png) | ![Favorites Screen](screenshots/favorite.png) |
