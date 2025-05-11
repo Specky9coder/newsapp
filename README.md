@@ -46,3 +46,11 @@ flutter run
 ## State Management Explanation
 
 The application uses `flutter_bloc` for structured and scalable state management. Events are dispatched to respective BLoC classes (e.g., `ArticleBloc`, `FavoriteBloc`), which handle business logic like fetching articles or toggling favorites, and emit new states accordingly. The UI listens to these state changes using `BlocBuilder` or `BlocConsumer`, ensuring a clean separation of concerns between logic and presentation.
+
+
+## Known Issues / Limitations
+
+- Currently, articles are fetched from a mock or static API and may not support pagination.
+- The favorite toggle is functional but does not persist across app restarts (no local storage yet).
+- Some UI elements (like Article Detail View) could be improved for better responsiveness on tablets or large screens.
+- Error handling for network failures and loading states can be enhanced further.
