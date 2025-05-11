@@ -41,3 +41,8 @@ flutter run
 - State Management: Bloc
 - HTTP Client: http
 - Persistence: shared_preferences
+
+
+## State Management Explanation
+
+The application uses `flutter_bloc` for structured and scalable state management. Events are dispatched to respective BLoC classes (e.g., `ArticleBloc`, `FavoriteBloc`), which handle business logic like fetching articles or toggling favorites, and emit new states accordingly. The UI listens to these state changes using `BlocBuilder` or `BlocConsumer`, ensuring a clean separation of concerns between logic and presentation.
