@@ -4,12 +4,14 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../newsapp.dart';
 
 class FavoritesScreen extends StatelessWidget {
+  const FavoritesScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Colors.white,
-          title: const Text('Favorites')),
+      appBar:
+          AppBar(backgroundColor: Colors.white, title: const Text('Favorites')),
       body: BlocBuilder<ArticleBloc, ArticleState>(
         builder: (context, state) {
           if (state is ArticleLoading) {
@@ -23,7 +25,7 @@ class FavoritesScreen extends StatelessWidget {
             }
 
             return RefreshIndicator(
-              onRefresh: ()async{
+              onRefresh: () async {
                 context.read<ArticleBloc>().add(FetchArticles());
               },
               child: ListView.builder(
@@ -71,7 +73,8 @@ class FavoritesScreen extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (_) => ArticleDetailScreen(article: article),
+                            builder: (_) =>
+                                ArticleDetailScreen(article: article),
                           ),
                         );
                       },

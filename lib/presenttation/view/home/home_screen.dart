@@ -125,7 +125,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ],
             ),
-            FavoritesScreen(), // Favorites Tab
+            const FavoritesScreen(), // Favorites Tab
           ],
         ),
         floatingActionButton: FloatingActionButton(
