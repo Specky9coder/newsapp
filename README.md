@@ -54,3 +54,10 @@ The application uses `flutter_bloc` for structured and scalable state management
 - The favorite toggle is functional but does not persist across app restarts (no local storage yet).
 - Some UI elements (like Article Detail View) could be improved for better responsiveness on tablets or large screens.
 - Error handling for network failures and loading states can be enhanced further.
+
+
+## Screenshots (Optional)
+
+| Home Screen | Article Detail | Favorites Screen |
+|-------------|----------------|------------------|
+| ![Home Screen](screenshots/home.png) | ![Detail Screen](screenshots/detail.png) | ![Favorites Screen](screenshots/favorites.png) |
