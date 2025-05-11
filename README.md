@@ -6,7 +6,7 @@ A Flutter application that fetches and displays a list of articles from a public
 ## Features
 
 - 📰 List of articles with title and summary
-- 🔍 Search functionality by article title
+- 🔍 Search functionality by article title and body
 - 📄 Article detail view with dynamic, responsive card UI
 - ❤️ Favorite/unfavorite articles with persistent local storage
 - 📱 Responsive layout across various screen sizes
